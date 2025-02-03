@@ -1,0 +1,35 @@
+	Ø Locators:
+	Can identify the various elements on web using Locators
+	Locators are addresses that identify a web element uniquely within the page
+
+	- Identify element
+	- Action on element
+
+	Ø Types:
+
+	• Locators:
+		○ Id : driver.find_element(By.ID,"ID_Name").send_keys("Value")
+		○ Name : driver.find_element(By.NAME,"Name").send_keys("Value")
+		○ Ex: <input type="text" class="search-box-text ui-autocomplete-input" id="small-searchterms" autocomplete="off" name="q" placeholder="Search store" aria-label="Search store" spellcheck="false" data-ms-editor="true">
+
+		○ Linktext : here Register is linktext
+		○ PartialLinktext: If a partial text is link
+		○ Ex: <a href="/register?returnUrl=%2F" class="ico-register">Register</a>
+
+		○ Class Name: used for sliders
+		○
+		○ TagName:
+		○
+	- .click(): for button
+
+	• Customized Locators:
+		○ CSS Selector
+			§ Tag and ID --> tagname#valueofId
+			§ Tag and Class --> tagname.valueofClass
+			§ Tag and attribute --> tagname[attribute=value]
+			§ Tag, class and attribute --> tagname.valueofClass[attribute=value]
+		○ XPath
+			§ Absolute XPath
+			§ Relative XPath
+
+
