@@ -1,0 +1,57 @@
+	Session 1 Topics:
+	- What is WebDriver?
+	- Architecture of WebDriver
+	- Selenium3 Vs Selenium4
+	- Setup Selenium with Python Project
+	- How to write test case
+
+	Ø What is Webdriver?
+	- Its one of component in Selenium
+	- It’s a module
+
+	- Firefox browser -> Firefox() class
+	- Etc class for different browsers
+	- Webdriver is an API (programming interface)
+
+	- Web app layers:
+		○ GUI/UI - Presentation layer ---------------------------------GUI Testing
+		○ Application/Web Server -> Business layer (API's)------API Testing
+		○ Database - Backend layer-------------------------------------Database Testing
+
+	- Selenium WebDriver is a tool used to automate browser actions for testing web applications.
+	- It communicates directly with the browser via browser-specific drivers.
+	- It supports multiple programming languages and allows for realistic simulation of user actions.
+	- It is designed to handle the complexities of modern web applications, including dynamic content and cross-browser compatibility.
+
+	Ø Webdriver Architecture:
+
+	- Selenium 3 Architecture:
+	-
+	- Components:
+		1. Selenium Client library: Selenium provides support to multiple libraries such as Ruby, Python, Java, etc as language bindings
+		2. JSON wire protocol over HTTP: JSON is an acronym for JavaScript Object Notation. It is an open standard that provides a transport mechanism for transferring data between client and server on the web.
+		3. Browser Drivers: Selenium browser drivers are native to each browser, interacting with the browser by establishing a secure connection. Selenium supports different browser drivers such as ChromeDriver, GeckoDriver, Microsoft Edge WebDriver, SafariDriver, and InternetExplorerDriver.
+		4. Browsers: Selenium provides support for multiple browsers like Chrome, Firefox, Safari, Internet Explorer etc.
+	- Selenium language bindings --JSON Wire protocol --Browser driver --W3C ---Browsers
+
+
+	- Selenium 4 Architecture:
+	- The architecture of Selenium 4 is similar to Selenium 3, however it uses W3C protocol instead of JSON wire protocol for communication between Client Libraries and Browser Drivers.
+	-
+
+	- W3C stands for the World Wide Web Consortium, an international community that develops and maintains standards and guidelines for the World Wide Web.
+	- As Selenium 3 (JSON wire protocol) used to encode & decode the request and response, Selenium 4 webdriver was made W3C compliant to make the communication easy and direct.
+	- Selenium Language bindings --W3C --Browser drivers --W3C --Browsers
+
+
+	1) Browser Specific drivers installation
+	Chrome:	https://chromedriver.chromium.org/downloads
+	Edge:	https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+	Firefox:	https://github.com/mozilla/geckodriver/releases
+	Safari:	https://webkit.org/blog/6900/webdriver-support-in-safari-10/
+
+	2) Setup selenium webdriver
+	- Pycharm
+	- OR  pip install selenium (cmd)
+
+
