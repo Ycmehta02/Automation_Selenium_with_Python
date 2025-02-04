@@ -1,0 +1,29 @@
+	Ø XPath axes:
+	• Using Xpath we can traverse through the DOM (top to bottom)
+
+	- Self : current node
+		○ //*[attribute='value']
+
+	- Parent: Traverse parent element of the current html tag(self node)
+		○ //*[attribute='value']/parent::tagname
+
+	- Child: Traverse all child element of the current html tag(self node)
+		○ //*[attribute='value']/child::tagname
+
+	- Ancestor: Traverse all the ancestor elements(grandparent,parent,etc) of the self node
+		○ //*[attribute='value']/ancestor::tagname
+
+	- Descendant: Traverse all descendent element(child node,grandchild node,etc) of self node
+		○ //*[attribute='value']/descendant::tagname
+
+	- Following: Traverse all element that comes after the self node
+		○ //*[attribute='value']/following::tagname
+
+	- Following-sibling: Traverse from self to next sibling html tag
+		○ //*[attribute='value']/following-sibling::sibling tagname[@attribute='value']
+
+	- Preceding: Traverse all nodes that comes before the self node
+		○ //*[attribute='value']/preceding::tagname
+
+	- Preceding-sibling: Traverse from self node to previous sibling HTML tag
+		○ //*[attribute='value']/preceding-sibling::previous tagname[@attribute='value']
