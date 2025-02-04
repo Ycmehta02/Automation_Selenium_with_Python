@@ -1,0 +1,57 @@
+	Ø XPath:
+	- XPath is defined as XML Path.
+	- It is a syntax or language for finding any element on webpage using XML Path expression.
+	- Used to find the location of any element on a webpage using HTML DOM structure.
+	- Used to navigate through elements and attributes in DOM
+	- Its an address of element
+
+	• DOM(Document Object Model)
+	- DOM is an API interface provided by browser
+	- When a webpage is loaded, browser creates DOM of the page.
+	- A hierarchical structure of webpage with top down approach
+
+	Ø Types of XPath:
+	1) Absolute/Full Xpath
+	- Start from beginning
+	- select element > inspect> element code (right click)> Copy> Copy Full XPath
+	Ex: /html/body/nav/div/div/div[2]/ul/li[2]/a/button
+
+
+	2) Relative/Partial Xpath
+	- Jump to the element
+	- select element > inspect> element code (right click)> Copy> Copy XPath
+	Ex: //*[@id="navbarSupportedContent"]/div[2]/ul/li[2]/a/button
+
+
+	Ø Writing XPath manually:
+	- Absolute XPath :
+	- Ex: Register in demo.nopcommerce.com website
+		○ Html/body/div[6]/div[1]/div[1]/dib[2]/div[1]/ul/li[1]/a
+
+	- Relative XPath:
+	- Syntax:
+		○ //tagname[@attribute='value']
+	- Ex: Search store textbox in nopcommerce website
+		○ //input[@id='small-searchterms']
+		○ //*[@id='small-searchterms']  #if tagname is not known
+
+
+		Ø SelectorHub to capture XPath
+	- Relative is preferred
+
+	- XPath options:
+		○ And :  give two attributes with and operator in relative XPath -> both should match
+		Ex: ----(By.XPATH,"//input[@name='name' and @placeholder='Full Name*']")
+
+		○ Or : give two attributes with or operator in relative Xpath --> either one should match
+
+		○ contain() : after click any button it changes after
+		Ex: //*[contains(@id,st)]
+		- This means id should contain 'st' in it anywhere
+
+		○ starts-with(): same as contains()
+		Ex: //*[starts-with(@id,'st')]
+		- Here it means id should start with 'st'
+
+		○ text():    "//a[text()='Women']" # it will select text
+
