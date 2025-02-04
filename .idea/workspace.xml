@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99838b0a-b508-4cdf-a748-5a1a2e25c7d6" name="Changes" comment="Session-2">
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-3/XPath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-3/XPath_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-3/demo_2.py" afterDir="false" />
+    <list default="true" id="99838b0a-b508-4cdf-a748-5a1a2e25c7d6" name="Changes" comment="Session-3">
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-4/XPathAxes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-4/XpathAxes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +61,7 @@
     "Python.Locators.executor": "Run",
     "Python.TC-2.executor": "Run",
     "Python.XPath_demo.executor": "Run",
+    "Python.XpathAxes.executor": "Run",
     "Python.demo_2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -69,7 +69,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.demo_2">
+  <component name="RunManager" selected="Python.XpathAxes">
     <configuration name="Locators-1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YM_Selenium" />
       <option name="ENV_FILES" value="" />
@@ -114,28 +114,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Locators-3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="YM_Selenium" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-2/Locators-3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="XPath_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YM_Selenium" />
       <option name="ENV_FILES" value="" />
@@ -150,6 +128,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-3/XPath_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XpathAxes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YM_Selenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-4/XpathAxes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.XpathAxes" />
         <item itemvalue="Python.demo_2" />
         <item itemvalue="Python.XPath_demo" />
         <item itemvalue="Python.Locators-1 (1)" />
         <item itemvalue="Python.Locators-2" />
-        <item itemvalue="Python.Locators-3" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738583447143</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Session-3">
+      <option name="closed" value="true" />
+      <created>1738659141894</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738659141894</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +247,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Session-1" />
     <MESSAGE value="Session-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Session-2" />
+    <MESSAGE value="Session-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Session-3" />
   </component>
 </project>
