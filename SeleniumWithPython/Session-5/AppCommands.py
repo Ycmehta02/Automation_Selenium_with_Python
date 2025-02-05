@@ -7,7 +7,7 @@ driver = webdriver.Chrome(service= serv)
 #opening the application url
 driver.get("https://opensource-demo.orangehrmlive.com/")
 
-driver.implicitly_wait(15)
+driver.implicitly_wait(5)
 #gives title of webpage
 print(driver.title)
 
