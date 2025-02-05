@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99838b0a-b508-4cdf-a748-5a1a2e25c7d6" name="Changes" comment="Session-3">
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-4/XPathAxes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-4/XpathAxes.py" afterDir="false" />
+    <list default="true" id="99838b0a-b508-4cdf-a748-5a1a2e25c7d6" name="Changes" comment="Session-4">
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-5/AppCommands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-5/BrowserCommands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-5/ConditionalCommands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-5/Find_ElementVsFind_Elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-5/NavigationalCommand.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-5/TextVsGet_Attribute.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,12 +58,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.AppCommands.executor": "Run",
+    "Python.BrowserCommands.executor": "Run",
+    "Python.ConditionalCommands.executor": "Run",
+    "Python.Find_ElementVsFind_Elements.executor": "Run",
     "Python.FirstTestcase.executor": "Run",
     "Python.Locators-1 (1).executor": "Run",
     "Python.Locators-2.executor": "Run",
     "Python.Locators-3.executor": "Run",
     "Python.Locators.executor": "Run",
+    "Python.NavigationalCommand.executor": "Run",
     "Python.TC-2.executor": "Run",
+    "Python.TextVsGet_Attribute.executor": "Run",
     "Python.XPath_demo.executor": "Run",
     "Python.XpathAxes.executor": "Run",
     "Python.demo_2.executor": "Run",
@@ -69,8 +79,8 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.XpathAxes">
-    <configuration name="Locators-1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.TextVsGet_Attribute">
+    <configuration name="AppCommands" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YM_Selenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,11 +89,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-2/Locators-1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-5/AppCommands.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Locators-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ConditionalCommands" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YM_Selenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,11 +111,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-2/Locators-2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-5/ConditionalCommands.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="XPath_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Find_ElementVsFind_Elements" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YM_Selenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-3/XPath_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-5/Find_ElementVsFind_Elements.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="XpathAxes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigationalCommand" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YM_Selenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,11 +155,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-4/XpathAxes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-5/NavigationalCommand.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="TextVsGet_Attribute" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YM_Selenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,11 +177,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-3/demo_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-5/TextVsGet_Attribute.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.XpathAxes" />
-        <item itemvalue="Python.demo_2" />
-        <item itemvalue="Python.XPath_demo" />
-        <item itemvalue="Python.Locators-1 (1)" />
-        <item itemvalue="Python.Locators-2" />
+        <item itemvalue="Python.TextVsGet_Attribute" />
+        <item itemvalue="Python.Find_ElementVsFind_Elements" />
+        <item itemvalue="Python.NavigationalCommand" />
+        <item itemvalue="Python.AppCommands" />
+        <item itemvalue="Python.ConditionalCommands" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +240,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738659141894</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Session-4">
+      <option name="closed" value="true" />
+      <created>1738667560508</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738667560508</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Session-4">
+      <option name="closed" value="true" />
+      <created>1738667620399</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738667620399</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +274,7 @@
     <MESSAGE value="Session-1" />
     <MESSAGE value="Session-2" />
     <MESSAGE value="Session-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Session-3" />
+    <MESSAGE value="Session-4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Session-4" />
   </component>
 </project>
