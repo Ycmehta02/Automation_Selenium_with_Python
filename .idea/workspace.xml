@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99838b0a-b508-4cdf-a748-5a1a2e25c7d6" name="Changes" comment="Session-7">
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-8/Alert_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-8/Alerts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-8/AuthenticatedPopup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-8/BrowserWindows.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-8/frames.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-8/inner_iframe.py" afterDir="false" />
+    <list default="true" id="99838b0a-b508-4cdf-a748-5a1a2e25c7d6" name="Changes" comment="Session-8">
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-9/NotificationPopup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-9/Webtable_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-9/Webtable_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +73,8 @@
     "Python.NavigationalCommand.executor": "Run",
     "Python.TC-2.executor": "Run",
     "Python.TextVsGet_Attribute.executor": "Run",
+    "Python.Webtable_1.executor": "Run",
+    "Python.Webtable_2.executor": "Run",
     "Python.XPath_demo.executor": "Run",
     "Python.XpathAxes.executor": "Run",
     "Python.checkbox.executor": "Run",
@@ -90,51 +89,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.BrowserWindows">
-    <configuration name="Alert_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="YM_Selenium" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-8/Alert_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Alerts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="YM_Selenium" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-8/Alerts.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Webtable_2">
     <configuration name="AuthenticatedPopup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YM_Selenium" />
       <option name="ENV_FILES" value="" />
@@ -179,6 +134,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Webtable_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YM_Selenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-9/Webtable_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Webtable_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YM_Selenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-9/Webtable_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="inner_iframe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YM_Selenium" />
       <option name="ENV_FILES" value="" />
@@ -203,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Webtable_2" />
+        <item itemvalue="Python.Webtable_1" />
         <item itemvalue="Python.BrowserWindows" />
         <item itemvalue="Python.inner_iframe" />
         <item itemvalue="Python.AuthenticatedPopup" />
-        <item itemvalue="Python.Alert_demo" />
-        <item itemvalue="Python.Alerts" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738905055324</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Session-8">
+      <option name="closed" value="true" />
+      <created>1738918082265</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738918082265</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,6 +328,7 @@
     <MESSAGE value="Session-5" />
     <MESSAGE value="Session-6" />
     <MESSAGE value="Session-7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Session-7" />
+    <MESSAGE value="Session-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Session-8" />
   </component>
 </project>
