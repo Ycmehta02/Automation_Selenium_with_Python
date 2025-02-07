@@ -1,0 +1,35 @@
+	Ø Alerts/Popups
+	- Its not a web-element
+	- Cant identify any element on alert window
+
+	- Al = Driver.switch_to.alert
+		○ Al.send_keys("Text")
+		○ Al.Text
+		○ Al.Accept()
+		○ Al.Dismiss()
+
+	Ø Authentication Popup
+	- A popup to enter username & password
+	- Here, we can inject the value to the link itself --> Injection
+
+	- https://the-internet.herokuapp.com/basic_auth
+	- Syntax: https://username:password@link.com
+	- Example: https://admin:admin@the-internet.herokuapp.com/basic_auth
+
+	Ø Frames/iframes
+	- Switch_to.frame(name of frame)
+	- Switch_to.frame(id of frame)
+	- Switch_to.frame(webelement)
+	- Switch_to.frame(index)
+
+	driver.switch_to.default_content()#backtomainpage
+
+	Ø Switch between Browser windows
+	- Switch_to.window(WINDOW_ID)
+
+	- Current_window_handle   ---> return window ID of single browser window
+	- Window_handles  ---> returns Window IDs of multiple browser windows
+	- Practice with "https://testautomationpractice.blogspot.com/" tabs section
+
+
+
