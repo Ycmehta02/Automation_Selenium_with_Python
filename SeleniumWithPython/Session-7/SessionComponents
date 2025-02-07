@@ -1,0 +1,11 @@
+	- Component Handling:
+
+	Ø Checkboxes
+
+	Ø Links
+		○ Internal link
+		○ External link
+		○ Broken link
+
+	Ø Dropdown
+	- If there's no select tag, directly copy Xpath and find element --> click

@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99838b0a-b508-4cdf-a748-5a1a2e25c7d6" name="Changes" comment="Session-6">
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-7/BrokenLink.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-7/DropDown.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-7/checkbox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-7/links.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="99838b0a-b508-4cdf-a748-5a1a2e25c7d6" name="Changes" comment="Session-7">
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-7/SessionComponents" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738758703433</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Session-7">
+      <option name="closed" value="true" />
+      <created>1738904858583</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738904858583</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,6 +301,7 @@
     <MESSAGE value="Session-4" />
     <MESSAGE value="Session-5" />
     <MESSAGE value="Session-6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Session-6" />
+    <MESSAGE value="Session-7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Session-7" />
   </component>
 </project>
