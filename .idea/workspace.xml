@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99838b0a-b508-4cdf-a748-5a1a2e25c7d6" name="Changes" comment="Session-10">
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session 11/DoubleClick.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session 11/DragNDrop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session 11/DragNDrop_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session 11/DragNDrop_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session 11/MouseHover.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session 11/MouseHover_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session 11/MuseHover_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session 11/RightClick.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session 11/Scrolling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session 11/Slider.py" afterDir="false" />
+    <list default="true" id="99838b0a-b508-4cdf-a748-5a1a2e25c7d6" name="Changes" comment="Session-11">
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-12/FileDownload_PDF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-12/FileDownload_Word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-12/KeyboardActions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-12/UploadFile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +67,10 @@
     "Python.DatePicker_1.executor": "Run",
     "Python.DatePicker_2.executor": "Run",
     "Python.DropDown.executor": "Run",
+    "Python.FileDownload.executor": "Run",
     "Python.Find_ElementVsFind_Elements.executor": "Run",
     "Python.FirstTestcase.executor": "Run",
+    "Python.KeyboardActions.executor": "Run",
     "Python.Locators-1 (1).executor": "Run",
     "Python.Locators-2.executor": "Run",
     "Python.Locators-3.executor": "Run",
@@ -83,6 +79,7 @@
     "Python.Scrolling.executor": "Run",
     "Python.TC-2.executor": "Run",
     "Python.TextVsGet_Attribute.executor": "Run",
+    "Python.UploadFile.executor": "Run",
     "Python.Webtable_1.executor": "Run",
     "Python.Webtable_2.executor": "Run",
     "Python.XPath_demo.executor": "Run",
@@ -99,29 +96,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Scrolling">
-    <configuration name="DatePicker_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="YM_Selenium" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-10/DatePicker_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.UploadFile">
     <configuration name="DatePicker_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YM_Selenium" />
       <option name="ENV_FILES" value="" />
@@ -136,6 +111,50 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-10/DatePicker_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FileDownload_Word" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YM_Selenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Alian\Desktop\YM_Selenium\SeleniumWithPython\Session-12\FileDownload_Word.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="KeyboardActions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YM_Selenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-12/KeyboardActions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,7 +185,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Webtable_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="UploadFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YM_Selenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,33 +194,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-12" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-9/Webtable_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Webtable_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="YM_Selenium" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-9" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-9/Webtable_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-12/UploadFile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.UploadFile" />
+        <item itemvalue="Python.FileDownload_Word" />
+        <item itemvalue="Python.KeyboardActions" />
         <item itemvalue="Python.Scrolling" />
         <item itemvalue="Python.DatePicker_2" />
-        <item itemvalue="Python.DatePicker_1" />
-        <item itemvalue="Python.Webtable_2" />
-        <item itemvalue="Python.Webtable_1" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +329,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738931562349</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Session-11">
+      <option name="closed" value="true" />
+      <created>1739162827153</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739162827153</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Session-11">
+      <option name="closed" value="true" />
+      <created>1739163138421</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739163138421</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -357,6 +370,28 @@
     <MESSAGE value="Session-8" />
     <MESSAGE value="Session-9" />
     <MESSAGE value="Session-10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Session-10" />
+    <MESSAGE value="Session-11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Session-11" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SeleniumWithPython/Session-12/FileDownload_PDF.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SeleniumWithPython/Session-12/FileDownload_PDF.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SeleniumWithPython/Session-12/FileDownload_PDF.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
