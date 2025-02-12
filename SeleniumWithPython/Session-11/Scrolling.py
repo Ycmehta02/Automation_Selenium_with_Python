@@ -1,7 +1,6 @@
 import time
 
 from selenium import webdriver
-from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
@@ -29,7 +28,7 @@ value = driver.execute_script("return window.pageYOffset;") #current position
 print("Location: ",value)
 time.sleep(5)
 
-#4. Scroll up to the starting postion
+#4. Scroll up to the starting position
 driver.execute_script("window.scrollBy(0,-document.body.scrollHeight)")
 value = driver.execute_script("return window.pageYOffset;") #current position
 print("Location: ",value)
