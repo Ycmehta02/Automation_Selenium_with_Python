@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99838b0a-b508-4cdf-a748-5a1a2e25c7d6" name="Changes" comment="Session-11">
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-14/FixedDepositCalc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-14/ReadExcel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-14/WriteExcel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-14/XLUtils.py" afterDir="false" />
+    <list default="true" id="99838b0a-b508-4cdf-a748-5a1a2e25c7d6" name="Changes" comment="Session-14">
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-15/DB_Operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWithPython/Session-15/FDCalcDB.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,56 +52,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Alert_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Alerts.executor&quot;: &quot;Run&quot;,
-    &quot;Python.AppCommands.executor&quot;: &quot;Run&quot;,
-    &quot;Python.AuthenticatedPopup.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BootstrapDropDown.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BrokenLink.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BrowserCommands.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BrowserWindows.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ConditionalCommands.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DatePicker_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DatePicker_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DropDown.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FileDownload.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Find_ElementVsFind_Elements.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FirstTestcase.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FixedDepositCalc.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HandlingCookies.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HeadlessTesting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.KeyboardActions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Locators-1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Locators-2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Locators-3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Locators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LoginAlianHub_TC.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NavigationalCommand.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ReadExcel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Scrolling.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TC-2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TextVsGet_Attribute.executor&quot;: &quot;Run&quot;,
-    &quot;Python.UploadFile.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Webtable_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Webtable_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.XPath_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.XpathAxes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.checkbox.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.inner_iframe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.links.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practice.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Alert_demo.executor": "Run",
+    "Python.Alerts.executor": "Run",
+    "Python.AppCommands.executor": "Run",
+    "Python.AuthenticatedPopup.executor": "Run",
+    "Python.BootstrapDropDown.executor": "Run",
+    "Python.BrokenLink.executor": "Run",
+    "Python.BrowserCommands.executor": "Run",
+    "Python.BrowserWindows.executor": "Run",
+    "Python.ConditionalCommands.executor": "Run",
+    "Python.DatePicker_1.executor": "Run",
+    "Python.DatePicker_2.executor": "Run",
+    "Python.DropDown.executor": "Run",
+    "Python.FDCalcDB.executor": "Run",
+    "Python.FileDownload.executor": "Run",
+    "Python.Find_ElementVsFind_Elements.executor": "Run",
+    "Python.FirstTestcase.executor": "Run",
+    "Python.FixedDepositCalc.executor": "Run",
+    "Python.HandlingCookies.executor": "Run",
+    "Python.HeadlessTesting.executor": "Run",
+    "Python.KeyboardActions.executor": "Run",
+    "Python.Locators-1 (1).executor": "Run",
+    "Python.Locators-2.executor": "Run",
+    "Python.Locators-3.executor": "Run",
+    "Python.Locators.executor": "Run",
+    "Python.LoginAlianHub_TC.executor": "Run",
+    "Python.NavigationalCommand.executor": "Run",
+    "Python.ReadExcel.executor": "Run",
+    "Python.Scrolling.executor": "Run",
+    "Python.TC-2.executor": "Run",
+    "Python.TextVsGet_Attribute.executor": "Run",
+    "Python.UploadFile.executor": "Run",
+    "Python.Webtable_1.executor": "Run",
+    "Python.Webtable_2.executor": "Run",
+    "Python.XPath_demo.executor": "Run",
+    "Python.XpathAxes.executor": "Run",
+    "Python.checkbox.executor": "Run",
+    "Python.demo_2.executor": "Run",
+    "Python.inner_iframe.executor": "Run",
+    "Python.links.executor": "Run",
+    "Python.practice.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Python.FixedDepositCalc">
-    <configuration name="BootstrapDropDown" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python.FDCalcDB">
+    <configuration name="FDCalcDB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YM_Selenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,11 +111,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-13" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumWithPython/Session-15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-13/BootstrapDropDown.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumWithPython/Session-15/FDCalcDB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FDCalcDB" />
         <item itemvalue="Python.FixedDepositCalc" />
         <item itemvalue="Python.ReadExcel" />
         <item itemvalue="Python.HeadlessTesting" />
         <item itemvalue="Python.HandlingCookies" />
-        <item itemvalue="Python.BootstrapDropDown" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739328773816</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Session-14">
+      <option name="closed" value="true" />
+      <created>1739342366235</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1739342366235</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -412,7 +419,8 @@
     <MESSAGE value="practice" />
     <MESSAGE value="Session-13" />
     <MESSAGE value="Session-11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Session-11" />
+    <MESSAGE value="Session-14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Session-14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
